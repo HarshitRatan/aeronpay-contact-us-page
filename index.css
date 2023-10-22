@@ -1,8 +1,11 @@
 :root {
   --main-background-color: #f5f8fa;
+  --second-main-background-color: #f2f8fc;
   --primary-hover-color: #ff903c;
 }
-
+body {
+  background-color: var(--second-main-background-color);
+}
 .logo {
   height: 3rem;
   width: 11rem;
@@ -66,7 +69,6 @@ a {
   text-decoration: none;
   cursor: pointer;
 }
-
 footer {
   margin-top: 3rem;
   background: radial-gradient(
@@ -74,4 +76,31 @@ footer {
     rgb(50, 50, 50) 0%,
     rgb(0, 0, 0) 99.4%
   );
+}
+
+/* Contact-us-banner */
+.contact-us-banner img {
+  width: 100%;
+}
+
+/* Media Query */
+@media only screen and (max-width: 480px) {
+  html {
+    font-size: 10px;
+  }
+}
+@media only screen and (min-width: 480px) {
+  html {
+    font-size: 12px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  html {
+    font-size: 14px;
+  }
+}
+@media only screen and (min-width: 920px) {
+  html {
+    font-size: 16px;
+  }
 }
