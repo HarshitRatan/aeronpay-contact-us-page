@@ -156,3 +156,44 @@ input[type="number"] {
   -moz-appearance: textfield;
   appearance: none;
 }
+
+@media only screen and (min-width: 1024px) {
+  html {
+    font-size: 16px;
+  }
+}
+@media only screen and (min-width: 1366px) {
+  html {
+    font-size: 18px;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  html {
+    font-size: 20px;
+  }
+}
+@media only screen and (min-width: 1600px) {
+  html {
+    font-size: 22px;
+  }
+}
+@media only screen and (min-width: 1920px) {
+  html {
+    font-size: 24px;
+  }
+}
+@media only screen and (min-width: 2048px) {
+  html {
+    font-size: 26px;
+  }
+}
+@media only screen and (min-width: 2160px) {
+  html {
+    font-size: 28px;
+  }
+}
+@media only screen and (min-width: 3840px) {
+  html {
+    font-size: 30px;
+  }
+}
