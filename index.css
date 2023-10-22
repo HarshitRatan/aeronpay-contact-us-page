@@ -107,6 +107,7 @@ form .submit-button {
 
 form .submit-button button {
   padding: 1rem 3.5rem;
+  border-radius: 2rem;
 }
 
 .form-heading {
@@ -129,10 +130,21 @@ form .submit-button button {
   padding: 0.75rem;
   font-weight: 600;
   border-radius: 1rem;
+  border: none;
 }
 .form-control:focus {
   border: none;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+iframe {
+  border: 0;
+  height: 100%;
+  width: 100%;
+  border-radius: 1.5rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  padding: 1.5rem;
 }
 /* Media Query */
 @media only screen and (max-width: 480px) {
