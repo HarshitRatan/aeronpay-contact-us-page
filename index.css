@@ -108,6 +108,22 @@ form .submit-button {
 form .submit-button button {
   padding: 1rem 3.5rem;
 }
+
+.form-heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.form-heading h3 {
+  font-weight: 1000;
+}
+.form-heading h6 {
+  color: #717171d4;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
 /* Media Query */
 @media only screen and (max-width: 480px) {
   html {
