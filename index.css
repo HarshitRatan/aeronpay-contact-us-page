@@ -32,7 +32,7 @@
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
-/* Header Dropdown */
+/* Header Dropdown CSS*/
 .dropdown:hover > .dropdown-menu {
   display: block;
 }
@@ -43,6 +43,7 @@
   border: none;
   padding: 0.5rem;
   box-shadow: rgb(244 155 8 / 20%) 0px 5px 15px;
+  background-color: var(--main-background-color);
 }
 .dropdown-menu li a svg {
   padding: 5px;
@@ -58,4 +59,19 @@
 }
 .dropdown-menu li a span {
   font-weight: 500;
+}
+
+/* Footer CSS */
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+footer {
+  margin-top: 3rem;
+  background: radial-gradient(
+    circle at 24.1% 68.8%,
+    rgb(50, 50, 50) 0%,
+    rgb(0, 0, 0) 99.4%
+  );
 }
